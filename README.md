@@ -35,7 +35,7 @@ It works with all SPA, even in non-Vue apps, just invoke the `collect` function 
 ga(collect => {
   // when hash changes
   window.onhashchange = () => {
-    collect(location.href)
+    collect(location.pathname + location.hash)
   }
 }, 'UA-XXXXX-Y')
 ```
