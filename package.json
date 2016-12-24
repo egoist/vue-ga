@@ -18,8 +18,9 @@
     "example": "vbuild example/index.js -d"
   },
   "files": [
-    "dist/index.js"
+    "dist"
   ],
+  "main": "./dist/index.js",
   "keywords": [
     "google analytics"
   ],
