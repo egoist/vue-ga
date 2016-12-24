@@ -29,7 +29,7 @@ export default router
 
 ### non vue-router
 
-Just invoke the `collect` function after route changes, for example:
+It works with all SPA, even in non-Vue apps, just invoke the `collect` function after route changes, for example:
 
 ```js
 ga(collect => {
