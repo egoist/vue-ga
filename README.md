@@ -54,3 +54,6 @@ ga(collect => {
 Authored and maintained by EGOIST with help from contributors ([list](https://github.com/egoist/vue-ga/contributors)).
 
 > [egoistian.com](https://egoistian.com) · GitHub [@egoist](https://github.com/egoist) · Twitter [@rem_rin_rin](https://twitter.com/rem_rin_rin)
+
+## Related Projects
++ [analytics-vue](https://github.com/segmentio/analytics-vue): Write analytics code once, collect customer data from any source, and send it to over 250+ destinations with [Segment](https://segment.com/).
