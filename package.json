@@ -7,27 +7,28 @@
   "author": {
     "name": "EGOIST",
     "email": "0x142857@gmail.com",
-    "url": "github.com/egoist"
+    "url": "https://github.com/egoist"
   },
   "engines": {
     "node": ">=4"
   },
   "scripts": {
     "test": "jest && eslint src/*.js && npm run build",
-    "build": "bili --name index --format umd",
+    "build": "bili --file-name vue-ga.[format].js --format esm --format umd --module-name VueGa",
     "example": "vbuild example/index.js -d"
   },
   "files": [
     "dist"
   ],
-  "main": "./dist/index.js",
+  "main": "./dist/vue-ga.umd.js",
+  "module": "./dist/vue-ga.esm.js",
   "keywords": [
     "google analytics"
   ],
   "devDependencies": {
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-vue": "^0.1.0",
-    "bili": "^0.10.0",
+    "bili": "^4.7.2",
     "eslint": "latest",
     "eslint-config-rem": "latest",
     "eva.js": "^1.3.0",
